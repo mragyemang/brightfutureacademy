@@ -16,7 +16,7 @@ const About = () => {
           <div className="inline-block px-4 py-1.5 bg-blue-100 text-blue-700 rounded-full text-xs font-bold uppercase tracking-widest mb-6">Our Legacy</div>
           <h1 className="text-5xl md:text-7xl font-extrabold text-slate-900 mb-8 tracking-tight italic">Nurturing Brilliance</h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-            Since 1995, Bright Future Academy has been a cornerstone of academic excellence 
+            Since 2000, Bright Future Academy has been a cornerstone of academic excellence 
             and character building, shaping the leaders of tomorrow.
           </p>
         </div>
@@ -33,7 +33,7 @@ const About = () => {
                 />
              </div>
              <div className="absolute -bottom-10 -right-10 bg-white p-8 rounded-3xl shadow-2xl max-w-xs border border-slate-50">
-               <p className="text-4xl font-extrabold text-primary mb-1 italic">30+</p>
+               <p className="text-4xl font-extrabold text-primary mb-1 italic">26</p>
                <p className="text-sm font-bold text-slate-500 uppercase tracking-widest">Years of Excellence</p>
              </div>
           </div>

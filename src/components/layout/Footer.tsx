@@ -36,7 +36,7 @@ const Footer = () => {
               </div>
             </Link>
             <p className="text-slate-400 text-lg leading-relaxed font-medium italic">
-              "Nurturing brilliance, shaping futures, and empowering the next generation of global leaders since 1995."
+              "Nurturing brilliance, shaping futures, and empowering the next generation of global leaders since 2000."
             </p>
             <div className="flex space-x-5">
               {[
@@ -87,7 +87,7 @@ const Footer = () => {
                 </div>
                 <div>
                    <p className="text-xs font-black text-slate-500 uppercase tracking-widest mb-1.5">Visit Us</p>
-                   <p className="text-slate-300 font-bold">123 Education Lane<br/>Accra, Ghana</p>
+                   <p className="text-slate-300 font-bold">Abesim<br/>Sunyani, Ghana</p>
                 </div>
               </li>
               <li className="flex items-start space-x-5 group">
@@ -96,7 +96,7 @@ const Footer = () => {
                 </div>
                 <div>
                    <p className="text-xs font-black text-slate-500 uppercase tracking-widest mb-1.5">Call Us</p>
-                   <p className="text-slate-300 font-bold">+233 20 123 4567</p>
+                   <p className="text-slate-300 font-bold">+233 20 801 2645</p>
                 </div>
               </li>
             </ul>

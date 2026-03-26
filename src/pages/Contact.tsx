@@ -49,11 +49,11 @@ const Contact = () => {
                   <div className="grid sm:grid-cols-2 gap-6">
                     <div className="space-y-3">
                       <label htmlFor="name" className="text-sm font-bold text-slate-500 uppercase tracking-widest">Full Name</label>
-                      <Input id="name" required placeholder="John Doe" className="h-14 rounded-xl bg-slate-50 border-none focus-visible:ring-primary/20" value={formData.name} onChange={e => setFormData({...formData, name: e.target.value})} />
+                      <Input id="name" required placeholder="Kwame Nkrumah" className="h-14 rounded-xl bg-slate-50 border-none focus-visible:ring-primary/20" value={formData.name} onChange={e => setFormData({...formData, name: e.target.value})} />
                     </div>
                     <div className="space-y-3">
                       <label htmlFor="email" className="text-sm font-bold text-slate-500 uppercase tracking-widest">Email Address</label>
-                      <Input id="email" type="email" required placeholder="john@example.com" className="h-14 rounded-xl bg-slate-50 border-none focus-visible:ring-primary/20" value={formData.email} onChange={e => setFormData({...formData, email: e.target.value})} />
+                      <Input id="email" type="email" required placeholder="nkrumahshowboy@example.com" className="h-14 rounded-xl bg-slate-50 border-none focus-visible:ring-primary/20" value={formData.email} onChange={e => setFormData({...formData, email: e.target.value})} />
                     </div>
                   </div>
                   <div className="space-y-3">
@@ -76,8 +76,8 @@ const Contact = () => {
           <div className="space-y-12">
             <div className="grid sm:grid-cols-2 gap-8">
               {[
-                { icon: MapPin, title: "Our Location", content: "123 Education Lane, Accra, Ghana", color: "text-blue-600 bg-blue-100" },
-                { icon: Phone, title: "Phone Number", content: "+233 20 123 4567\n+233 30 765 4321", color: "text-emerald-600 bg-emerald-100" },
+                { icon: MapPin, title: "Our Location", content: "Abesim, Sunyani, Ghana", color: "text-blue-600 bg-blue-100" },
+                { icon: Phone, title: "Phone Number", content: "+233 20 801 2645\n+233 59 345 7520", color: "text-emerald-600 bg-emerald-100" },
                 { icon: Mail, title: "Email Address", content: "info@brightfuture.edu\nadmissions@brightfuture.edu", color: "text-purple-600 bg-purple-100" },
                 { icon: Clock, title: "Working Hours", content: "Mon - Fri: 7:30 AM - 4:30 PM\nSat - Sun: Closed", color: "text-amber-600 bg-amber-100" },
               ].map((item, idx) => (
