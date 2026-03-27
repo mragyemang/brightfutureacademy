@@ -8,6 +8,7 @@ import Blog from './pages/Blog';
 import BlogDetail from './pages/BlogDetail';
 import AdminBlog from './pages/AdminBlog';
 import Contact from './pages/Contact';
+import Facilities from './pages/Facilities';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="blog" element={<Blog />} />
           <Route path="blog/:id" element={<BlogDetail />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="facilities" element={<Facilities />} />
         </Route>
         <Route path="/admin" element={<AdminBlog />} />
       </Routes>
