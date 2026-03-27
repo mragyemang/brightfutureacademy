@@ -1,10 +1,15 @@
 import { Card } from '@/components/ui/card';
+import Principal from "../assets/principal.jpg"
+import HeadofAdmin from "../assets/headofadmin.jpg"
+import AcademicHistory from "../assets/AcademicHistory.jpg"
+import ElonMusk from "../assets/ElonMusk.jpg"
+import MarkZuckerberg from "../assets/MarkZuckerberg.webp"
 
 const teachers = [
-  { name: 'Dr. Sarah Mensah', role: 'Principal', image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400' },
-  { name: 'Mr. John Osei', role: 'Head of Science', image: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&q=80&w=400' },
-  { name: 'Mrs. Grace Arthur', role: 'Head of Arts', image: 'https://images.unsplash.com/photo-1580894732444-8ecded7900cd?auto=format&fit=crop&q=80&w=400' },
-  { name: 'Mr. David Kumi', role: 'Sports Director', image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=400' },
+  { name: 'Dr. Prince Agyemang', role: 'Principal', image: Principal },
+  { name: 'Dr. Clinton Amofa', role: 'Head of Administration', image: HeadofAdmin },
+  { name: 'Ing. Elon Musk', role: 'Head of Junior High School', image: ElonMusk },
+  { name: 'Mark Zuckerberg', role: 'Head of Primary School', image: MarkZuckerberg },
 ];
 
 const About = () => {
@@ -27,7 +32,7 @@ const About = () => {
              <div className="absolute -inset-4 bg-primary/5 rounded-[3rem] -rotate-2 -z-10" />
              <div className="bg-slate-100 aspect-video rounded-[2.5rem] overflow-hidden shadow-2xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1541339907198-e08759dfc3ef?auto=format&fit=crop&q=80&w=1000" 
+                  src={AcademicHistory} 
                   alt="Academy History" 
                   className="w-full h-full object-cover"
                 />

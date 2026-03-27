@@ -1,42 +1,49 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { FlaskConical, Laptop, Trophy, Book, Bus, Wind, ShieldCheck, Waves, GraduationCap, Palette } from 'lucide-react';
+import ComputerLab from "../assets/computerLab.jpg"
+import Classroom from "../assets/classroom.jpg"
+import SportsComplex from "../assets/sportsComplex.jpg"
+import Library from "../assets/library.jpg"
+import SchoolBus from "../assets/schoolBus.jpg"
+import CreativeArtsStudio from "../assets/artClass.jpg"
+import GraduationPic from "../assets/graduation.jpg"
 
 const facilities = [
   {
-    title: 'Science & Computer Labs',
+    title: 'Computer Labs',
     description: 'State-of-the-art laboratories equipped with modern apparatus and high-speed computing systems for practical learning.',
     icon: FlaskConical,
-    image: 'https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=800'
+    image: ComputerLab
   },
   {
     title: 'Modern Classrooms',
     description: 'Spacious, well-ventilated, and digitally integrated classrooms designed to foster an engaging learning environment.',
     icon: Laptop,
-    image: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&q=80&w=800'
+    image: Classroom
   },
   {
     title: 'Sports Complex',
     description: 'Comprehensive sports facilities including a standard football pitch, basketball court, and athletics track.',
     icon: Trophy,
-    image: 'https://images.unsplash.com/photo-1541534741688-6078c64b545d?auto=format&fit=crop&q=80&w=800'
+    image: SportsComplex
   },
   {
     title: 'Library & Resource Center',
     description: 'A vast collection of academic books, journals, and digital resources to support student research and self-study.',
     icon: Book,
-    image: 'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&q=80&w=800'
+    image: Library
   },
   {
     title: 'School Bus Service',
     description: 'Safe and reliable transportation network covering major routes in Sunyani and surrounding areas.',
     icon: Bus,
-    image: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&q=80&w=800'
+    image: SchoolBus
   },
   {
     title: 'Creative Arts Studio',
     description: 'Dedicated spaces for visual arts, music, and performing arts to nurture the creative talents of our students.',
     icon: Palette,
-    image: 'https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&q=80&w=800'
+    image: CreativeArtsStudio
   }
 ];
 
@@ -113,7 +120,7 @@ const Facilities = () => {
               <div className="absolute -inset-4 bg-white/5 rounded-[3rem] rotate-3 -z-10" />
               <div className="aspect-square rounded-[2.5rem] overflow-hidden shadow-2xl">
                  <img 
-                   src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&q=80&w=1000" 
+                   src={GraduationPic} 
                    alt="Campus Environment" 
                    className="w-full h-full object-cover"
                  />

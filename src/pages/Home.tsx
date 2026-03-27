@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { BookOpen, Users, Trophy, ArrowRight, ChevronRight } from 'lucide-react';
+import SchoolCompound from "../assets/schoolCompound.jpg"
 
 const Home = () => {
   return (
@@ -57,8 +58,8 @@ const Home = () => {
               <div className="absolute -inset-4 bg-gradient-to-tr from-primary/10 to-transparent rounded-[2.5rem] -rotate-3 -z-10" />
               <div className="bg-slate-200 aspect-[4/5] rounded-[2rem] overflow-hidden shadow-2xl relative group">
                 <img 
-                  src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1000" 
-                  alt="Student at Bright Future Academy" 
+                  src={SchoolCompound} 
+                  alt="Bright Future Academy" 
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent md:opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
