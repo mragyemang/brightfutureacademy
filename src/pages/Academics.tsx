@@ -5,17 +5,12 @@ const programs = [
   {
     title: 'Primary School (Grades 1-6)',
     description: 'A strong foundational program emphasizing literacy, numeracy, and character building in a supportive environment.',
-    features: ['Phonics & Reading Comprehension', 'Foundational Mathematics', 'Introduction to Basic Sciences', 'Arts & Crafts']
+    features: ['Core Subjects (English, Maths, Science)', 'Computing', 'Our World Our People (OWOP)', 'History', 'French']
   },
   {
     title: 'Junior High School (JHS 1-3)',
     description: 'A transitional phase tailored to harness critical thinking and subject-specific knowledge preparing students for advanced studies.',
-    features: ['Pre-Algebra & Geometry', 'Integrated Science', 'Social Studies & History', 'ICT Basics']
-  },
-  {
-    title: 'Senior High School (SHS 1-3)',
-    description: 'Comprehensive streams tailored to student career paths, including Sciences, General Arts, and Business.',
-    features: ['Elective Sciences (Physics, Chemistry, Biology)', 'Business Studies (Accounting, Management)', 'General Arts (Literature, Economics)', 'Advanced ICT']
+    features: ['Core Subjects (English, Maths, Science, Social Studies)', 'Computing', 'Our World Our People (OWOP)', 'History', 'French']
   }
 ];
 
