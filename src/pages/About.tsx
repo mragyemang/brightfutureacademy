@@ -7,8 +7,8 @@ import MarkZuckerberg from "../assets/MarkZuckerberg.webp"
 
 const teachers = [
   { name: 'Dr. Prince Agyemang', role: 'Principal', image: Principal },
-  { name: 'Dr. Clinton Amofa', role: 'Head of Administration', image: HeadofAdmin },
-  { name: 'Ing. Elon Musk', role: 'Head of Junior High School', image: ElonMusk },
+  { name: 'Ing Clinton Amofa', role: 'Head of Administration', image: HeadofAdmin },
+  { name: 'Dr. Elon Musk', role: 'Head of Junior High School', image: ElonMusk },
   { name: 'Mark Zuckerberg', role: 'Head of Primary School', image: MarkZuckerberg },
 ];
 
