@@ -87,7 +87,7 @@ const Footer = () => {
                 </div>
                 <div>
                    <p className="text-xs font-black text-slate-500 uppercase tracking-widest mb-1.5">Visit Us</p>
-                   <p className="text-slate-300 font-bold">Abesim<br/>Sunyani, Ghana</p>
+                   <p className="text-slate-300 font-bold">Nkwabeng<br/>Sunyani, Ghana</p>
                 </div>
               </li>
               <li className="flex items-start space-x-5 group">
