@@ -48,7 +48,7 @@ const About = () => {
               Our Story
             </h2>
             <p className="text-lg text-slate-600 mb-10 leading-relaxed font-medium">
-              Bright Future Academy started with a vision to provide quality, accessible education. What began as a small primary school has grown into a comprehensive educational institution covering Primary through Senior High School.
+              Bright Future Academy started with a vision to provide quality, accessible education. What began as a small primary school has grown into a comprehensive educational institution covering Primary through Junior High School.
             </p>
             <div className="grid gap-8">
               <div className="group">
