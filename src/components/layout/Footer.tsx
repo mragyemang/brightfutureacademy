@@ -97,6 +97,7 @@ const Footer = () => {
                 <div>
                    <p className="text-xs font-black text-slate-500 uppercase tracking-widest mb-1.5">Call Us</p>
                    <p className="text-slate-300 font-bold">+233 20 801 2645</p>
+                   <p className="text-slate-300 font-bold">+233 59 345 7520</p>
                 </div>
               </li>
             </ul>
