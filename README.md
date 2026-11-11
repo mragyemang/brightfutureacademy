@@ -1,73 +1,68 @@
-# React + TypeScript + Vite
+# Bright Future Academy
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A school website that provides families and prospective students with a clear starting point for learning about the academy, its programs, admissions, facilities, and school updates.
 
-Currently, two official plugins are available:
+**Live site:** [brillaschool.vercel.app](https://brillaschool.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Overview
 
-## React Compiler
+Bright Future Academy is a multi-page school website built with React and TypeScript. Visitors can browse information about academics, admissions, facilities, and the school, read blog posts, and find contact information. The project also includes a separate admin route for blog management.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Home, About, Academics, Admissions, and Facilities pages
+- Blog listing and individual blog post pages
+- Contact page
+- Separate `/admin` route for blog administration
+- Client-side routing and shared site layout
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Built With
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- React 19 and TypeScript
+- Vite
+- React Router
+- Tailwind CSS
+- Radix UI components
+- Lucide React icons
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Getting Started
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Prerequisites
+
+- Node.js and npm
+
+### Install and run
+
+```bash
+git clone https://github.com/mragyemang/brightfutureacademy.git
+cd brightfutureacademy
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Use the local URL printed by Vite to open the application.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Available Scripts
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the development server |
+| `npm run build` | Type-check and create a production build |
+| `npm run preview` | Preview the production build locally |
+| `npm run lint` | Run ESLint |
+
+## Production Build
+
+```bash
+npm run build
 ```
+
+The production-ready files are created in `dist/` and can be deployed to Vercel or another static hosting provider.
+
+## Contributing
+
+Suggestions and improvements are welcome. Please open an issue for discussion or submit a pull request with a clear summary of the changes.
+
+## License
+
+No license is currently specified. All rights remain with the project owner unless a license is added.
